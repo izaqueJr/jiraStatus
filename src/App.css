@@ -1,0 +1,61 @@
+*{
+  font-size: 20px;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputPreview{
+  border: 1px solid #ddd;
+  padding: 5px;
+  font-size: 12px;
+}
+
+button{
+  width: 200px;
+}
+
+.addTask{
+  color: #fff;
+  background-color: #A259FF!important;
+}
+
+.copyTask{
+  color: #fff;
+  background-color: #0ACF83!important;
+  
+}
+
+.resetTask{
+  color: #fff;
+  background-color: #ED5B61!important;
+  
+}
+
+#root{
+  background-color: #000;
+}
+
+#inputPreview {
+  width: 190px;
+  padding: 10px 0;
+  background: transparent;
+  font-size: 12px;
+  border: 1px solid #fffbfb2e;
+  color: #ddd;
+  border-radius: 8px;
+}

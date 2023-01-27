@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "reactExt",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "reactExt"
+  },
+  "host_permissions": ["*://*/*"]
+}
