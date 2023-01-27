@@ -1,11 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "reactExt",
+  "name": "Get Jira Tasks",
+  "description": "Extensão para extrair informações de tarefas do Jira",
   "version": "1.0",
   "permissions": ["activeTab", "scripting"],
   "action": {
     "default_popup": "index.html",
-    "default_title": "reactExt"
+    "default_title": "reactExt",
+    "default_icon": "big-todo.png"
   },
+
+  "icons": { "16": "todo.png",
+           "48": "todo.png",
+          "128": "big-todo.png" },
   "host_permissions": ["*://*/*"]
 }
